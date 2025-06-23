@@ -25,6 +25,28 @@ body {
   border: 1px solid;
   width: 590px;
   height: 100vh;
-  display: flex;
   margin: 0 auto;
+}
+
+.header {
+  border: 1px solid;
+  padding: 15px;
+  color: blue;
+}
+
+.title {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.title i {
+  font-size: 30px;
+}
+
+.title span {
+  font-size: 18px;
 }
