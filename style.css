@@ -42,8 +42,8 @@ body {
 
 .title i {
   font-size: 30px;
+  color: white;
 }
-
 .title span {
   font-size: 18px;
 }
@@ -106,4 +106,7 @@ button {
 }
 .text-delete {
   color: red;
+}
+.pesan h3 {
+  text-align: center;
 }
