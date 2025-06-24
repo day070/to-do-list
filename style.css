@@ -22,20 +22,17 @@ body {
 }
 
 .container {
-  border: 1px solid;
   width: 590px;
   height: 100vh;
   margin: 0 auto;
 }
 
 .header {
-  border: 1px solid;
   padding: 15px;
-  color: blue;
+  color: white;
 }
 
 .title {
-  border: 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,4 +46,64 @@ body {
 
 .title span {
   font-size: 18px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-control {
+  width: 100%;
+  padding: 0.5rem;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid;
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d9a7c7,
+    #fffcdc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d9a7c7,
+    #fffcdc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+}
+
+.task-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-items.done span {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.text-edit {
+  color: green;
+}
+.text-delete {
+  color: red;
 }
